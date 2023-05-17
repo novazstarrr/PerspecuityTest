@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4012CC03-EE67-45ED-918C-6777DB0ED193}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{35476057-012B-4196-A71C-D9C6E2784BA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerspicuityTest.Web.Api", "src\PerspicuityTest.Web.Api\PerspicuityTest.Web.Api.csproj", "{DFCF7811-1FC1-4C48-BA15-00B12BCFF777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerspicuityTest.Core", "src\PerspicuityTest.DataAccess\PerspicuityTest.Core.csproj", "{54B5A62A-8379-4313-91A5-8D30AEFA76A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerspicuityTest.Database", "src\PerspicuityTest.Database\PerspicuityTest.Database.csproj", "{0D4F39CA-215C-4631-A129-0856F783FCA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerspicuityTest.Tests.Unit", "tests\PerspicuityTest.Tests.Unit\PerspicuityTest.Tests.Unit.csproj", "{A68F4E1F-580D-420D-9510-2583546DE63D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerspicuityTest.Tests.Integration", "tests\PerspicuityTest.Tests.Integration\PerspicuityTest.Tests.Integration.csproj", "{7377DC17-64A7-4D65-AB9A-B439A3B627EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFCF7811-1FC1-4C48-BA15-00B12BCFF777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCF7811-1FC1-4C48-BA15-00B12BCFF777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCF7811-1FC1-4C48-BA15-00B12BCFF777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCF7811-1FC1-4C48-BA15-00B12BCFF777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B5A62A-8379-4313-91A5-8D30AEFA76A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B5A62A-8379-4313-91A5-8D30AEFA76A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B5A62A-8379-4313-91A5-8D30AEFA76A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B5A62A-8379-4313-91A5-8D30AEFA76A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4F39CA-215C-4631-A129-0856F783FCA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4F39CA-215C-4631-A129-0856F783FCA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4F39CA-215C-4631-A129-0856F783FCA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4F39CA-215C-4631-A129-0856F783FCA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68F4E1F-580D-420D-9510-2583546DE63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68F4E1F-580D-420D-9510-2583546DE63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68F4E1F-580D-420D-9510-2583546DE63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68F4E1F-580D-420D-9510-2583546DE63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7377DC17-64A7-4D65-AB9A-B439A3B627EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7377DC17-64A7-4D65-AB9A-B439A3B627EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7377DC17-64A7-4D65-AB9A-B439A3B627EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7377DC17-64A7-4D65-AB9A-B439A3B627EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFCF7811-1FC1-4C48-BA15-00B12BCFF777} = {4012CC03-EE67-45ED-918C-6777DB0ED193}
+		{54B5A62A-8379-4313-91A5-8D30AEFA76A7} = {4012CC03-EE67-45ED-918C-6777DB0ED193}
+		{0D4F39CA-215C-4631-A129-0856F783FCA0} = {4012CC03-EE67-45ED-918C-6777DB0ED193}
+		{A68F4E1F-580D-420D-9510-2583546DE63D} = {35476057-012B-4196-A71C-D9C6E2784BA8}
+		{7377DC17-64A7-4D65-AB9A-B439A3B627EA} = {35476057-012B-4196-A71C-D9C6E2784BA8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2340842-B7BB-4395-A8C8-051D64E25C49}
+	EndGlobalSection
+EndGlobal
