@@ -11,18 +11,6 @@ using Class = PerspicuityTest.Core.Dtos.Class;
 
 namespace PerspicuityTest.Tests.Unit.Core.Commands.Classes.Handlers
 {
-    // TODO - Remove this
-    // MOQ allows us to create mocks
-    //public class MockUpdateClassWriter : IUpdateClassWriter
-    //{
-    //    public Class Response { get; set; }
-
-    //    public Task<Class> Update(Class @class)
-    //    {
-    //        return Response;
-    //    }
-    //}
-
     public class UpdateClassCommandHandlerTests
     {
         private readonly UpdateClassCommandHandler _updateClassCommandHandler;
